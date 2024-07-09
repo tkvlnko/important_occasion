@@ -275,7 +275,10 @@ const actions = [
                 document.body.classList.remove('gradbg')
                 document.body.classList.remove('bg')
 
-                btns.forEach((btn) => btn.classList.remove("hide"))
+                btns.forEach((btn) => {
+                    btn.classList.remove("hide");
+                    btn.style.display = "flex";
+                })
                 beats.classList.add('hide')
                 // populateCarousel();
                 updateCarousel();

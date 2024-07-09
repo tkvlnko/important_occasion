@@ -8,12 +8,12 @@ body {
     height: 100vh;
     width: 100vw;
     margin: 0;
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     box-sizing: border-box;
     transition: 0.5s linear;
     position: relative;
     font-style: normal;
-
 
     -webkit-transition:background-color linear 5s;
 	-moz-transition:background-color linear 5s;
@@ -335,7 +335,7 @@ audio {
     background-color: #ffffff;
     border-radius: 30px;
     font-family: 'Courier New', Courier, monospace;
-    font-style: none;
+    font-style: normal;
     line-height: 24px;
     text-decoration: none;
 
@@ -359,7 +359,6 @@ audio {
     border: none;
     width: 100px;
     height: 100px;
-    display: flex;
     justify-content: center;
     align-items: center;
 
