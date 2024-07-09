@@ -8,6 +8,8 @@ body {
     height: 100vh;
     width: 100vw;
     margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
     transition: 0.5s linear;
     position: relative;
     font-style: normal;
@@ -375,11 +377,23 @@ audio {
 
 @media screen and (max-width: 450px) {
     .carousel-btn {
-        width: 30px;
-        height: 100px;
-        border-radius: 10px;
+        width: 40px;
+        height: 40px;
+        /* border-radius: 10px; */
+        box-sizing: border-box;
+        position: absolute;
+    }
+
+    .left {
+        left: 0;
+        bottom: 2.2rem; 
     }
     
+    .right {
+        right: 0;
+        bottom: 2.2rem; 
+    }
+
     .carousel-img {
         height: 100px;
         max-width: 100px;
@@ -388,11 +402,11 @@ audio {
 
     #congratulations-carousel {
         flex-direction: column;
-        height: 600px;
+        height: 500px;
     }
 
     .container {
-        margin: 10px;
+        margin: 20px;
     }
 
     .lamp {
