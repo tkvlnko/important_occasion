@@ -381,17 +381,21 @@ audio {
     }
     
     .carousel-img {
-        height: 80px;
-        max-width: 80px;
+        height: 100px;
+        max-width: 100px;
         margin: 5px;
     }
 
     #congratulations-carousel {
         flex-direction: column;
-        height: 400px;
+        height: 600px;
     }
 
     .container {
         margin: 10px;
+    }
+
+    .lamp {
+        top: -45px;
     }
 }

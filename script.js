@@ -8,97 +8,97 @@ const questions = [
             { text: '41', correct: false }
         ]
     },
-    {
-        question: "Выбери правильный вариант",
-        answers: [
-            { text: 'Нолик', correct: false },
-            { text: 'Завиток', correct: false },
-            { text: 'Кустик', correct: true },
-            { text: 'Боб', correct: false },
-            { text: 'Май Тай', correct: false }
-        ]
-    },
-    {
-        question: "Какую книгу ты читал своей жене, когда она была беременная?",
-        answers: [
-            { text: 'Анна Каренина', correct: false },
-            { text: 'Зеркала', correct: true },
-            { text: 'Джейн Эйр', correct: false },
-            { text: 'Властелин Колец', correct: false }
-        ]
-    },
-    {
-        question: "Шуточки",
-        answers: [
-            { text: 'за 5', correct: false },
-            { text: 'за 100', correct: false },
-            { text: 'за 200', correct: false },
-            { text: 'за 300', correct: true }
-        ]
-    },
-    {
-        question: "Любимые цветы жены",
-        answers: [
-            { text: 'Розы', correct: false },
-            { text: 'Пионы', correct: false },
-            { text: 'Эустома', correct: false },
-            { text: 'Каллы', correct: true }
-        ]
-    },
-    {
-        question: "Сколько у тебя племянников?",
-        answers: [
-            { text: '3', correct: false },
-            { text: '4', correct: true },
-            { text: '5', correct: false },
-            { text: '6', correct: false }
-        ]
-    },
-    {
-        question: "В каком году мы первый раз поехали в Тайланд?",
-        answers: [
-            { text: '2010', correct: false },
-            { text: '2011', correct: false },
-            { text: '2012', correct: true },
-            { text: '2013', correct: false }
-        ]
-    },
-    {
-        question: "Что ты приготовил жене на первый романтический ужин?",
-        answers: [
-            { text: 'Картошку пюре и курицу', correct: true },
-            { text: 'Макароны и котлеты', correct: false },
-            { text: 'Суси', correct: false },
-            { text: 'Стейк', correct: false }
-        ]
-    },
-    {
-        question: "В каком году у нас появился куст?",
-        answers: [
-            { text: '2012', correct: false },
-            { text: '2013', correct: true },
-            { text: '2014', correct: false },
-            { text: '2015', correct: false }
-        ]
-    },
-    {
-        question: "Когда у нас появился Бандос?",
-        answers: [
-            { text: 'Апрель 2010', correct: true },
-            { text: 'Май 2010', correct: false },
-            { text: 'Апрель 2011', correct: false },
-            { text: 'Май 2011', correct: false }
-        ]
-    },
-    {
-        question: "Сколько раз мы были в Тайланде?",
-        answers: [
-            { text: '5', correct: false },
-            { text: '6', correct: false },
-            { text: '7', correct: true },
-            { text: '8', correct: false }
-        ]
-    }
+    // {
+    //     question: "Выбери правильный вариант",
+    //     answers: [
+    //         { text: 'Нолик', correct: false },
+    //         { text: 'Завиток', correct: false },
+    //         { text: 'Кустик', correct: true },
+    //         { text: 'Боб', correct: false },
+    //         { text: 'Май Тай', correct: false }
+    //     ]
+    // },
+    // {
+    //     question: "Какую книгу ты читал своей жене, когда она была беременная?",
+    //     answers: [
+    //         { text: 'Анна Каренина', correct: false },
+    //         { text: 'Зеркала', correct: true },
+    //         { text: 'Джейн Эйр', correct: false },
+    //         { text: 'Властелин Колец', correct: false }
+    //     ]
+    // },
+    // {
+    //     question: "Шуточки",
+    //     answers: [
+    //         { text: 'за 5', correct: false },
+    //         { text: 'за 100', correct: false },
+    //         { text: 'за 200', correct: false },
+    //         { text: 'за 300', correct: true }
+    //     ]
+    // },
+    // {
+    //     question: "Любимые цветы жены",
+    //     answers: [
+    //         { text: 'Розы', correct: false },
+    //         { text: 'Пионы', correct: false },
+    //         { text: 'Эустома', correct: false },
+    //         { text: 'Каллы', correct: true }
+    //     ]
+    // },
+    // {
+    //     question: "Сколько у тебя племянников?",
+    //     answers: [
+    //         { text: '3', correct: false },
+    //         { text: '4', correct: true },
+    //         { text: '5', correct: false },
+    //         { text: '6', correct: false }
+    //     ]
+    // },
+    // {
+    //     question: "В каком году мы первый раз поехали в Тайланд?",
+    //     answers: [
+    //         { text: '2010', correct: false },
+    //         { text: '2011', correct: false },
+    //         { text: '2012', correct: true },
+    //         { text: '2013', correct: false }
+    //     ]
+    // },
+    // {
+    //     question: "Что ты приготовил жене на первый романтический ужин?",
+    //     answers: [
+    //         { text: 'Картошку пюре и курицу', correct: true },
+    //         { text: 'Макароны и котлеты', correct: false },
+    //         { text: 'Суси', correct: false },
+    //         { text: 'Стейк', correct: false }
+    //     ]
+    // },
+    // {
+    //     question: "В каком году у нас появился куст?",
+    //     answers: [
+    //         { text: '2012', correct: false },
+    //         { text: '2013', correct: true },
+    //         { text: '2014', correct: false },
+    //         { text: '2015', correct: false }
+    //     ]
+    // },
+    // {
+    //     question: "Когда у нас появился Бандос?",
+    //     answers: [
+    //         { text: 'Апрель 2010', correct: true },
+    //         { text: 'Май 2010', correct: false },
+    //         { text: 'Апрель 2011', correct: false },
+    //         { text: 'Май 2011', correct: false }
+    //     ]
+    // },
+    // {
+    //     question: "Сколько раз мы были в Тайланде?",
+    //     answers: [
+    //         { text: '5', correct: false },
+    //         { text: '6', correct: false },
+    //         { text: '7', correct: true },
+    //         { text: '8', correct: false }
+    //     ]
+    // }
 ];
 
 const congratulationsMessages = [
